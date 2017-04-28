@@ -1,22 +1,61 @@
-body {
-    font-family: sans-serif;
-    background-color: lightgrey;
-    margin-top: 75px;
+body{
+	background-image: url("resources/background1.jpg");
+	background-attachment:fixed;
+	margin : 50;
+	padding: 50;
 }
 
-.center {
-    text-align: center;
+.container{
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	background: white;
 }
 
-.text-big {
-    font-size: 300%;
+.header{
+	font-family: sans-serif;
+	font-size: 36pt;
+	letter-spacing: 4pt;
+	
 }
 
-.bold {
-    font-weight: bold;
+hr{
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 20px;
 }
 
-.img-medium {
-    height: 200px;
+ul{
+	margin-left: 320px;
 }
 
+li{
+	padding: 20px;
+	display: inline;
+}
+
+.main_body{
+	margin-top: 80px;
+
+}
+.article_part{
+	float: left; 
+	width: 50%;
+	margin-left: 100px; 
+	text-align: justify;
+}
+
+.additional_info{
+	float: right;
+	width: 40%;	
+}
+
+.my_image{
+	border-radius: 50%;
+
+}
+
+.footer{
+	padding-bottom: 50px;
+}
